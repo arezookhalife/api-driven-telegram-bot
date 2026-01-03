@@ -3,6 +3,7 @@
 This project demonstrates a Telegram bot powered by a Django backend API.  
 It is structured professionally for easy setup and deployment.
 
+![alt text](<Screenshot 2026-01-03 140132.png>) ![alt text](<Screenshot 2026-01-03 135934.png>)
 ---
 
 ## 🎯 Features
@@ -64,6 +65,7 @@ proxy_port = None  # optional, if you use a proxy
 SECRET_KEY = "YOUR_DJANGO_SECRET_KEY"
 DEBUG = True
 ALLOWED_HOSTS = ["127.0.0.1"]
+TELEGRAM_BOT_LINK = "https://t.me/YOUR_TELEGRAM_BOT_USERNAME"
 ```
 
 Important: Do not commit these private files to git. They are ignored by .gitignore.
