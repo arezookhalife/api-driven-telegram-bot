@@ -1,0 +1,38 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.pyc
+.env
+
+# Virtual environments
+aiogram_bot/venv/
+backend/venv/
+env/
+venv/
+
+# Django
+*.log
+*.pot
+*.db
+*.sqlite3
+/staticfiles/
+media/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+# Configs
+aiogram_bot/config.py
+backend/config/settings_private.py
+
+#logs
+logs.txt
